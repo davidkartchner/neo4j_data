@@ -28,6 +28,7 @@ Tacrine,OrganicChemical,TREATS,Alzheimer's Disease,584
 APP,GeneOrGenome,INTERACTS WITH,Amyloid beta-Protein Precursor,15
 APP,GeneOrGenome,COEXISTS WITH,Hydroxymethylglutaryl-CoA Reductase Inhibitors,22
 APP,GeneOrGenome,STIMULATES,Nerve Growth Factors,107
+Amyloid,AminoAcidPeptideOrProtein,COEXISTS WITH,APP,14
 Amyloid,AminoAcidPeptideOrProtein,COEXISTS WITH,Acetylcholinesterase,32
 Amyloid,AminoAcidPeptideOrProtein,COEXISTS WITH,BACE1,18
 Amyloid,AminoAcidPeptideOrProtein,INHIBITS,MAPT,49
@@ -45,6 +46,7 @@ Donepezil,PharmacologicSubstance,DIFFERENT FROM,Donepezil,688
 Donepezil,PharmacologicSubstance,COEXISTS WITH,Nicotinic Receptors,20
 Galantamine,OrganicChemical,INTERACTS WITH,Acetylcholinesterase Inhibitors,19
 Hydroxymethylglutaryl-CoA Reductase Inhibitors,OrganicChemical,STIMULATES,Homocysteine,19
+LAMC2,GeneOrGenome,INHIBITS,Antioxidants,14
 LAMC2,GeneOrGenome,COEXISTS WITH,Memantine,75
 MAPT,GeneOrGenome,INHIBITS,APP,24
 MAPT,GeneOrGenome,PRODUCES,Nerve Growth Factors,18
