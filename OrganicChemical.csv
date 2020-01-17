@@ -1,0 +1,12 @@
+end_node,node_type,relationship,start_node,weight
+Cholinesterase Inhibitors,OrganicChemical,TREATS,Alzheimer's Disease,1386
+Galantamine,OrganicChemical,TREATS,Alzheimer's Disease,700
+Hydroxymethylglutaryl-CoA Reductase Inhibitors,OrganicChemical,TREATS,Alzheimer's Disease,196
+Memantine,OrganicChemical,TREATS,Alzheimer's Disease,870
+Rivastigmine,OrganicChemical,TREATS,Alzheimer's Disease,690
+Tacrine,OrganicChemical,TREATS,Alzheimer's Disease,584
+Cholinesterase Inhibitors,OrganicChemical,INTERACTS WITH,Tacrine,22
+Galantamine,OrganicChemical,INTERACTS WITH,Acetylcholinesterase Inhibitors,19
+Hydroxymethylglutaryl-CoA Reductase Inhibitors,OrganicChemical,STIMULATES,Homocysteine,19
+Tacrine,OrganicChemical,ISA,Cholinesterase Inhibitors,97
+Tacrine,OrganicChemical,STIMULATES,Donepezil,16

@@ -1,0 +1,9 @@
+end_node,node_type,relationship,start_node,weight
+Acetylcholinesterase Inhibitors,PharmacologicSubstance,TREATS,Alzheimer's Disease,1026
+"Anti-Inflammatory Agents, Non-Steroidal",PharmacologicSubstance,PREVENTS,Alzheimer's Disease,200
+Antioxidants,PharmacologicSubstance,TREATS,Alzheimer's Disease,356
+Donepezil,PharmacologicSubstance,TREATS,Alzheimer's Disease,1376
+"Anti-Inflammatory Agents, Non-Steroidal",PharmacologicSubstance,COEXISTS WITH,Nerve Growth Factors,78
+Antioxidants,PharmacologicSubstance,INTERACTS WITH,Homocysteine,15
+Donepezil,PharmacologicSubstance,DIFFERENT FROM,Donepezil,688
+Donepezil,PharmacologicSubstance,COEXISTS WITH,Nicotinic Receptors,20
