@@ -1,15 +1,6 @@
-end_node,node_type,relationship,start_node,weight
-APOE,GeneOrGenome,PREDISPOSES,Alzheimer's Disease,570
-APP,GeneOrGenome,ASSOCIATED WITH,Alzheimer's Disease,3170
-BACE1,GeneOrGenome,TREATS,Alzheimer's Disease,270
-LAMC2,GeneOrGenome,ASSOCIATED WITH,Alzheimer's Disease,485
-MAPT,GeneOrGenome,ASSOCIATED WITH,Alzheimer's Disease,4170
-APP,GeneOrGenome,INTERACTS WITH,Amyloid beta-Protein Precursor,15
-APP,GeneOrGenome,COEXISTS WITH,Hydroxymethylglutaryl-CoA Reductase Inhibitors,22
-APP,GeneOrGenome,STIMULATES,Nerve Growth Factors,107
-BACE1,GeneOrGenome,STIMULATES,APP,15
-BACE1,GeneOrGenome,INHIBITS,Acetylcholinesterase Inhibitors,80
-LAMC2,GeneOrGenome,INHIBITS,Antioxidants,14
-LAMC2,GeneOrGenome,COEXISTS WITH,Memantine,75
-MAPT,GeneOrGenome,INHIBITS,APP,24
-MAPT,GeneOrGenome,PRODUCES,Nerve Growth Factors,18
+end_node,node_type
+APOE,GeneOrGenome
+APP,GeneOrGenome
+BACE1,GeneOrGenome
+LAMC2,GeneOrGenome
+MAPT,GeneOrGenome

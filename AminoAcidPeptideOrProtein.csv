@@ -1,25 +1,12 @@
-end_node,node_type,relationship,start_node,weight
-Acetylcholinesterase,AminoAcidPeptideOrProtein,TREATS,Alzheimer's Disease,216
-Amyloid,AminoAcidPeptideOrProtein,ASSOCIATED WITH,Alzheimer's Disease,993
-Amyloid Fibrils,AminoAcidPeptideOrProtein,ASSOCIATED WITH,Alzheimer's Disease,128
-Amyloid beta-Protein,AminoAcidPeptideOrProtein,ASSOCIATED WITH,Alzheimer's Disease,289
-Amyloid beta-Protein Precursor,AminoAcidPeptideOrProtein,ASSOCIATED WITH,Alzheimer's Disease,539
-Apolipoprotein E-4,AminoAcidPeptideOrProtein,PREDISPOSES,Alzheimer's Disease,242
-Brain-Derived Neurotrophic Factor,AminoAcidPeptideOrProtein,ASSOCIATED WITH,Alzheimer's Disease,89
-Gamma-Secretase,AminoAcidPeptideOrProtein,TREATS,Alzheimer's Disease,142
-Homocysteine,AminoAcidPeptideOrProtein,PREDISPOSES,Alzheimer's Disease,146
-Nerve Growth Factors,AminoAcidPeptideOrProtein,TREATS,Alzheimer's Disease,140
-Nicotinic Receptors,AminoAcidPeptideOrProtein,ASSOCIATED WITH,Alzheimer's Disease,75
-Amyloid,AminoAcidPeptideOrProtein,COEXISTS WITH,APP,14
-Amyloid,AminoAcidPeptideOrProtein,COEXISTS WITH,Acetylcholinesterase,32
-Amyloid,AminoAcidPeptideOrProtein,COEXISTS WITH,BACE1,18
-Amyloid,AminoAcidPeptideOrProtein,INHIBITS,MAPT,49
-Amyloid,AminoAcidPeptideOrProtein,STIMULATES,Nerve Growth Factors,15
-Amyloid,AminoAcidPeptideOrProtein,PART OF,Nicotinic Receptors,19
-Amyloid beta-Protein Precursor,AminoAcidPeptideOrProtein,INTERACTS WITH,APP,16
-Amyloid beta-Protein Precursor,AminoAcidPeptideOrProtein,INHIBITS,BACE1,19
-Amyloid beta-Protein Precursor,AminoAcidPeptideOrProtein,INTERACTS WITH,Gamma-Secretase,21
-Nerve Growth Factors,AminoAcidPeptideOrProtein,INHIBITS,Acetylcholinesterase,27
-Nerve Growth Factors,AminoAcidPeptideOrProtein,INHIBITS,Antioxidants,23
-Nicotinic Receptors,AminoAcidPeptideOrProtein,INHIBITS,Acetylcholinesterase,18
-Nicotinic Receptors,AminoAcidPeptideOrProtein,INTERACTS WITH,Acetylcholinesterase Inhibitors,55
+end_node,node_type
+Acetylcholinesterase,AminoAcidPeptideOrProtein
+Amyloid,AminoAcidPeptideOrProtein
+Amyloid Fibrils,AminoAcidPeptideOrProtein
+Amyloid beta-Protein,AminoAcidPeptideOrProtein
+Amyloid beta-Protein Precursor,AminoAcidPeptideOrProtein
+Apolipoprotein E-4,AminoAcidPeptideOrProtein
+Brain-Derived Neurotrophic Factor,AminoAcidPeptideOrProtein
+Gamma-Secretase,AminoAcidPeptideOrProtein
+Homocysteine,AminoAcidPeptideOrProtein
+Nerve Growth Factors,AminoAcidPeptideOrProtein
+Nicotinic Receptors,AminoAcidPeptideOrProtein
