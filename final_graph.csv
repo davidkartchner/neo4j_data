@@ -1,58 +1,58 @@
-end_node,node_type,relationship,start_node,weight
-APOE,GeneOrGenome,PREDISPOSES,Alzheimer's Disease,570
-APP,GeneOrGenome,ASSOCIATED WITH,Alzheimer's Disease,3170
-Acetylcholinesterase,AminoAcidPeptideOrProtein,TREATS,Alzheimer's Disease,216
-Acetylcholinesterase Inhibitors,PharmacologicSubstance,TREATS,Alzheimer's Disease,1026
-Amyloid,AminoAcidPeptideOrProtein,ASSOCIATED WITH,Alzheimer's Disease,993
-Amyloid Fibrils,AminoAcidPeptideOrProtein,ASSOCIATED WITH,Alzheimer's Disease,128
-Amyloid beta-Protein,AminoAcidPeptideOrProtein,ASSOCIATED WITH,Alzheimer's Disease,289
-Amyloid beta-Protein Precursor,AminoAcidPeptideOrProtein,ASSOCIATED WITH,Alzheimer's Disease,539
-"Anti-Inflammatory Agents, Non-Steroidal",PharmacologicSubstance,PREVENTS,Alzheimer's Disease,200
-Antioxidants,PharmacologicSubstance,TREATS,Alzheimer's Disease,356
-Apolipoprotein E-4,AminoAcidPeptideOrProtein,PREDISPOSES,Alzheimer's Disease,242
-BACE1,GeneOrGenome,TREATS,Alzheimer's Disease,270
-Brain-Derived Neurotrophic Factor,AminoAcidPeptideOrProtein,ASSOCIATED WITH,Alzheimer's Disease,89
-Cholinesterase Inhibitors,OrganicChemical,TREATS,Alzheimer's Disease,1386
-Donepezil,PharmacologicSubstance,TREATS,Alzheimer's Disease,1376
-Galantamine,OrganicChemical,TREATS,Alzheimer's Disease,700
-Gamma-Secretase,AminoAcidPeptideOrProtein,TREATS,Alzheimer's Disease,142
-Homocysteine,AminoAcidPeptideOrProtein,PREDISPOSES,Alzheimer's Disease,146
-Hydroxymethylglutaryl-CoA Reductase Inhibitors,OrganicChemical,TREATS,Alzheimer's Disease,196
-LAMC2,GeneOrGenome,ASSOCIATED WITH,Alzheimer's Disease,485
-MAPT,GeneOrGenome,ASSOCIATED WITH,Alzheimer's Disease,4170
-Memantine,OrganicChemical,TREATS,Alzheimer's Disease,870
-Nerve Growth Factors,AminoAcidPeptideOrProtein,TREATS,Alzheimer's Disease,140
-Nicotinic Receptors,AminoAcidPeptideOrProtein,ASSOCIATED WITH,Alzheimer's Disease,75
-Rivastigmine,OrganicChemical,TREATS,Alzheimer's Disease,690
-Tacrine,OrganicChemical,TREATS,Alzheimer's Disease,584
-APP,GeneOrGenome,INTERACTS WITH,Amyloid beta-Protein Precursor,15
-APP,GeneOrGenome,COEXISTS WITH,Hydroxymethylglutaryl-CoA Reductase Inhibitors,22
-APP,GeneOrGenome,STIMULATES,Nerve Growth Factors,107
-Amyloid,AminoAcidPeptideOrProtein,COEXISTS WITH,APP,14
-Amyloid,AminoAcidPeptideOrProtein,COEXISTS WITH,Acetylcholinesterase,32
-Amyloid,AminoAcidPeptideOrProtein,COEXISTS WITH,BACE1,18
-Amyloid,AminoAcidPeptideOrProtein,INHIBITS,MAPT,49
-Amyloid,AminoAcidPeptideOrProtein,STIMULATES,Nerve Growth Factors,15
-Amyloid,AminoAcidPeptideOrProtein,PART OF,Nicotinic Receptors,19
-Amyloid beta-Protein Precursor,AminoAcidPeptideOrProtein,INTERACTS WITH,APP,16
-Amyloid beta-Protein Precursor,AminoAcidPeptideOrProtein,INHIBITS,BACE1,19
-Amyloid beta-Protein Precursor,AminoAcidPeptideOrProtein,INTERACTS WITH,Gamma-Secretase,21
-"Anti-Inflammatory Agents, Non-Steroidal",PharmacologicSubstance,COEXISTS WITH,Nerve Growth Factors,78
-Antioxidants,PharmacologicSubstance,INTERACTS WITH,Homocysteine,15
-BACE1,GeneOrGenome,STIMULATES,APP,15
-BACE1,GeneOrGenome,INHIBITS,Acetylcholinesterase Inhibitors,80
-Cholinesterase Inhibitors,OrganicChemical,INTERACTS WITH,Tacrine,22
-Donepezil,PharmacologicSubstance,DIFFERENT FROM,Donepezil,688
-Donepezil,PharmacologicSubstance,COEXISTS WITH,Nicotinic Receptors,20
-Galantamine,OrganicChemical,INTERACTS WITH,Acetylcholinesterase Inhibitors,19
-Hydroxymethylglutaryl-CoA Reductase Inhibitors,OrganicChemical,STIMULATES,Homocysteine,19
-LAMC2,GeneOrGenome,INHIBITS,Antioxidants,14
-LAMC2,GeneOrGenome,COEXISTS WITH,Memantine,75
-MAPT,GeneOrGenome,INHIBITS,APP,24
-MAPT,GeneOrGenome,PRODUCES,Nerve Growth Factors,18
-Nerve Growth Factors,AminoAcidPeptideOrProtein,INHIBITS,Acetylcholinesterase,27
-Nerve Growth Factors,AminoAcidPeptideOrProtein,INHIBITS,Antioxidants,23
-Nicotinic Receptors,AminoAcidPeptideOrProtein,INHIBITS,Acetylcholinesterase,18
-Nicotinic Receptors,AminoAcidPeptideOrProtein,INTERACTS WITH,Acetylcholinesterase Inhibitors,55
-Tacrine,OrganicChemical,ISA,Cholinesterase Inhibitors,97
-Tacrine,OrganicChemical,STIMULATES,Donepezil,16
+start_node,start_type,relationship,end_node,end_type,weight
+Acetylcholinesterase,AminoAcidPeptideOrProtein,TREATS,Alzheimer's Disease,DiseaseOrSyndrome,216
+Acetylcholinesterase,AminoAcidPeptideOrProtein,COEXISTS WITH,Amyloid,AminoAcidPeptideOrProtein,32
+Acetylcholinesterase,AminoAcidPeptideOrProtein,INHIBITS,Nerve Growth Factors,AminoAcidPeptideOrProtein,27
+Acetylcholinesterase,AminoAcidPeptideOrProtein,INHIBITS,Nicotinic Receptors,AminoAcidPeptideOrProtein,18
+Amyloid,AminoAcidPeptideOrProtein,ASSOCIATED WITH,Alzheimer's Disease,DiseaseOrSyndrome,993
+Amyloid,AminoAcidPeptideOrProtein,COEXISTS WITH,APP,GeneOrGenome,14
+Amyloid,AminoAcidPeptideOrProtein,INHIBITS,MAPT,GeneOrGenome,49
+Amyloid Fibrils,AminoAcidPeptideOrProtein,ASSOCIATED WITH,Alzheimer's Disease,DiseaseOrSyndrome,128
+Amyloid beta-Protein,AminoAcidPeptideOrProtein,ASSOCIATED WITH,Alzheimer's Disease,DiseaseOrSyndrome,289
+Amyloid beta-Protein Precursor,AminoAcidPeptideOrProtein,ASSOCIATED WITH,Alzheimer's Disease,DiseaseOrSyndrome,539
+Amyloid beta-Protein Precursor,AminoAcidPeptideOrProtein,INTERACTS WITH,APP,GeneOrGenome,15
+Amyloid beta-Protein Precursor,AminoAcidPeptideOrProtein,INTERACTS WITH,APP,GeneOrGenome,16
+Apolipoprotein E-4,AminoAcidPeptideOrProtein,PREDISPOSES,Alzheimer's Disease,DiseaseOrSyndrome,242
+Brain-Derived Neurotrophic Factor,AminoAcidPeptideOrProtein,ASSOCIATED WITH,Alzheimer's Disease,DiseaseOrSyndrome,89
+Gamma-Secretase,AminoAcidPeptideOrProtein,TREATS,Alzheimer's Disease,DiseaseOrSyndrome,142
+Gamma-Secretase,AminoAcidPeptideOrProtein,INTERACTS WITH,Amyloid beta-Protein Precursor,AminoAcidPeptideOrProtein,21
+Homocysteine,AminoAcidPeptideOrProtein,PREDISPOSES,Alzheimer's Disease,DiseaseOrSyndrome,146
+Homocysteine,AminoAcidPeptideOrProtein,INTERACTS WITH,Antioxidants,PharmacologicSubstance,15
+Nerve Growth Factors,AminoAcidPeptideOrProtein,TREATS,Alzheimer's Disease,DiseaseOrSyndrome,140
+Nerve Growth Factors,AminoAcidPeptideOrProtein,STIMULATES,Amyloid,AminoAcidPeptideOrProtein,15
+Nerve Growth Factors,AminoAcidPeptideOrProtein,PRODUCES,MAPT,GeneOrGenome,18
+Nicotinic Receptors,AminoAcidPeptideOrProtein,ASSOCIATED WITH,Alzheimer's Disease,DiseaseOrSyndrome,75
+Nicotinic Receptors,AminoAcidPeptideOrProtein,PART OF,Amyloid,AminoAcidPeptideOrProtein,19
+Nicotinic Receptors,AminoAcidPeptideOrProtein,COEXISTS WITH,Donepezil,PharmacologicSubstance,20
+APOE,GeneOrGenome,PREDISPOSES,Alzheimer's Disease,DiseaseOrSyndrome,570
+APP,GeneOrGenome,ASSOCIATED WITH,Alzheimer's Disease,DiseaseOrSyndrome,3170
+APP,GeneOrGenome,COEXISTS WITH,Hydroxymethylglutaryl-CoA Reductase Inhibitors,OrganicChemical,22
+APP,GeneOrGenome,STIMULATES,Nerve Growth Factors,AminoAcidPeptideOrProtein,107
+APP,GeneOrGenome,STIMULATES,BACE1,GeneOrGenome,15
+APP,GeneOrGenome,INHIBITS,MAPT,GeneOrGenome,24
+BACE1,GeneOrGenome,TREATS,Alzheimer's Disease,DiseaseOrSyndrome,270
+BACE1,GeneOrGenome,COEXISTS WITH,Amyloid,AminoAcidPeptideOrProtein,18
+BACE1,GeneOrGenome,INHIBITS,Amyloid beta-Protein Precursor,AminoAcidPeptideOrProtein,19
+LAMC2,GeneOrGenome,ASSOCIATED WITH,Alzheimer's Disease,DiseaseOrSyndrome,485
+LAMC2,GeneOrGenome,INHIBITS,Antioxidants,PharmacologicSubstance,14
+MAPT,GeneOrGenome,ASSOCIATED WITH,Alzheimer's Disease,DiseaseOrSyndrome,4170
+Cholinesterase Inhibitors,OrganicChemical,TREATS,Alzheimer's Disease,DiseaseOrSyndrome,1386
+Cholinesterase Inhibitors,OrganicChemical,ISA,Tacrine,OrganicChemical,97
+Galantamine,OrganicChemical,TREATS,Alzheimer's Disease,DiseaseOrSyndrome,700
+Galantamine,OrganicChemical,INTERACTS WITH,Acetylcholinesterase Inhibitors,PharmacologicSubstance,19
+Hydroxymethylglutaryl-CoA Reductase Inhibitors,OrganicChemical,TREATS,Alzheimer's Disease,DiseaseOrSyndrome,196
+Hydroxymethylglutaryl-CoA Reductase Inhibitors,OrganicChemical,STIMULATES,Homocysteine,AminoAcidPeptideOrProtein,19
+Memantine,OrganicChemical,TREATS,Alzheimer's Disease,DiseaseOrSyndrome,870
+Memantine,OrganicChemical,COEXISTS WITH,LAMC2,GeneOrGenome,75
+Rivastigmine,OrganicChemical,TREATS,Alzheimer's Disease,DiseaseOrSyndrome,690
+Tacrine,OrganicChemical,TREATS,Alzheimer's Disease,DiseaseOrSyndrome,584
+Tacrine,OrganicChemical,INTERACTS WITH,Cholinesterase Inhibitors,OrganicChemical,22
+Acetylcholinesterase Inhibitors,PharmacologicSubstance,TREATS,Alzheimer's Disease,DiseaseOrSyndrome,1026
+Acetylcholinesterase Inhibitors,PharmacologicSubstance,INHIBITS,BACE1,GeneOrGenome,80
+Acetylcholinesterase Inhibitors,PharmacologicSubstance,INTERACTS WITH,Nicotinic Receptors,AminoAcidPeptideOrProtein,55
+"Anti-Inflammatory Agents, Non-Steroidal",PharmacologicSubstance,PREVENTS,Alzheimer's Disease,DiseaseOrSyndrome,200
+"Anti-Inflammatory Agents, Non-Steroidal",PharmacologicSubstance,COEXISTS WITH,Nerve Growth Factors,AminoAcidPeptideOrProtein,78
+Antioxidants,PharmacologicSubstance,TREATS,Alzheimer's Disease,DiseaseOrSyndrome,356
+Antioxidants,PharmacologicSubstance,INHIBITS,Nerve Growth Factors,AminoAcidPeptideOrProtein,23
+Donepezil,PharmacologicSubstance,TREATS,Alzheimer's Disease,DiseaseOrSyndrome,1376
+Donepezil,PharmacologicSubstance,DIFFERENT FROM,Donepezil,PharmacologicSubstance,688
+Donepezil,PharmacologicSubstance,STIMULATES,Tacrine,OrganicChemical,16
