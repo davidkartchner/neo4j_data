@@ -1,0 +1,28 @@
+name,type
+Acetylcholinesterase,AminoAcidPeptideOrProtein
+Amyloid,AminoAcidPeptideOrProtein
+Amyloid Fibrils,AminoAcidPeptideOrProtein
+Amyloid beta-Protein,AminoAcidPeptideOrProtein
+Amyloid beta-Protein Precursor,AminoAcidPeptideOrProtein
+Apolipoprotein E-4,AminoAcidPeptideOrProtein
+Brain-Derived Neurotrophic Factor,AminoAcidPeptideOrProtein
+Gamma-Secretase,AminoAcidPeptideOrProtein
+Homocysteine,AminoAcidPeptideOrProtein
+Nerve Growth Factors,AminoAcidPeptideOrProtein
+Nicotinic Receptors,AminoAcidPeptideOrProtein
+APOE,GeneOrGenome
+APP,GeneOrGenome
+BACE1,GeneOrGenome
+LAMC2,GeneOrGenome
+MAPT,GeneOrGenome
+Cholinesterase Inhibitors,OrganicChemical
+Galantamine,OrganicChemical
+Hydroxymethylglutaryl-CoA Reductase Inhibitors,OrganicChemical
+Memantine,OrganicChemical
+Rivastigmine,OrganicChemical
+Tacrine,OrganicChemical
+Acetylcholinesterase Inhibitors,PharmacologicSubstance
+"Anti-Inflammatory Agents, Non-Steroidal",PharmacologicSubstance
+Antioxidants,PharmacologicSubstance
+Donepezil,PharmacologicSubstance
+Alzheimer's Disease,DiseaseOrSyndrome
