@@ -1,21 +1,21 @@
 name,type
 APOE,AminoAcidPeptideOrProtein
 Amyloid,AminoAcidPeptideOrProtein
-Amyloid beta-Protein,AminoAcidPeptideOrProtein
 Amyloid beta-Protein Precursor,AminoAcidPeptideOrProtein
-Apolipoprotein E-4,AminoAcidPeptideOrProtein
+Alzheimer's Disease,DiseaseOrSyndrome
+Parkinson Disease,DiseaseOrSyndrome
+Tauopathies,DiseaseOrSyndrome
 APP,GeneOrGenome
-BACE1,GeneOrGenome
-LAMC2,GeneOrGenome
 MAPT,GeneOrGenome
 Cholinesterase Inhibitors,OrganicChemical
 Galantamine,OrganicChemical
-Hydroxymethylglutaryl-CoA Reductase Inhibitors,OrganicChemical
 Memantine,OrganicChemical
 Rivastigmine,OrganicChemical
 Tacrine,OrganicChemical
 Acetylcholinesterase Inhibitors,PharmacologicSubstance
 "Anti-Inflammatory Agents, Non-Steroidal",PharmacologicSubstance
-Antioxidants,PharmacologicSubstance
 Donepezil,PharmacologicSubstance
-Alzheimer's Disease,DiseaseOrSyndrome
+"Dementia, Vascular",DiseaseOrSyndrome
+Down Syndrome,DiseaseOrSyndrome
+Nervous System Disorder,DiseaseOrSyndrome
+Neurodegenerative Disorders,DiseaseOrSyndrome
